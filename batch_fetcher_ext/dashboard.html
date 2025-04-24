@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Batch Fetcher Unified</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <h1>Batch URL Fetcher</h1>
+  <section id="config">
+    <h2>CSVインポート</h2>
+    <input id="csv-file-input" type="file" accept=".csv" />
+    <button id="csv-load-btn">読み込み</button>
+    <ul id="entries-list"></ul>
+  </section>
+  <section id="execution">
+    <h2>実行</h2>
+    <button id="dir-choose-btn">保存先フォルダ選択</button>
+    <span id="selected-dir">未選択</span>
+    <button id="start-all">一括実行</button>
+    <ul id="status-list"></ul>
+  </section>
+  <script src="dashboard.js"></script>
+</body>
+</html>

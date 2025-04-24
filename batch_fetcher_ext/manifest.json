@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Batch URL Fetcher Unified",
+  "version": "1.0",
+  "description": "CSVインポートからURLリストを読み込み、レスポンスを指定フォルダに保存する統合版",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    },
+    "default_title": "Batch Fetcher を開く"
+  }
+}

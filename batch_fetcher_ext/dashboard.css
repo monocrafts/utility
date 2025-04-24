@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e0e5ec;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section {
+  background: #e0e5ec;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow:
+    8px 8px 16px #a3b1c6,
+    -8px -8px 16px #ffffff;
+  margin-bottom: 20px;
+}
+h2 { margin-bottom: 10px; }
+button {
+  background: #e0e5ec;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  box-shadow:
+    4px 4px 8px #a3b1c6,
+    -4px -4px 8px #ffffff;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+button:active {
+  box-shadow:
+    inset 4px 4px 8px #a3b1c6,
+    inset -4px -4px 8px #ffffff;
+}
+input[type="file"] {
+  background: #e0e5ec;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em;
+  box-shadow:
+    inset 4px 4px 8px #a3b1c6,
+    inset -4px -4px 8px #ffffff;
+}
+ul { list-style: none; padding-left: 0; }
+li {
+  background: #e0e5ec;
+  padding: 0.6em;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+  box-shadow:
+    4px 4px 8px #a3b1c6,
+    -4px -4px 8px #ffffff;
+}
+.status-running { color: #6c5ce7; }
+.status-success { color: green; }
+.status-fail { color: red; }
