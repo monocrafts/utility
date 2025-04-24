@@ -1,0 +1,5 @@
+body { font-family: sans-serif; padding: 10px; width: 300px; }
+button { margin: 5px 0; }
+li { margin: 5px 0; }
+.status-success { color: green; }
+.status-fail { color: red; }
